@@ -1,9 +1,12 @@
-import webbrowser
 import time
+import webbrowser
 
-links = ["https://www.linkedin.com/in/elaine-moreira/", "https://github.com/ElaineMoreira"]
+links = ["https://www.linkedin.com/in/elaine-moreira/", 
+    "https://github.com/ElaineMoreira",
+    "https://www.youtube.com/"]
 
 for link in links:
-    webbrowser.open(link)
     time.sleep(3)
+    webbrowser.open(link)
+    
     
